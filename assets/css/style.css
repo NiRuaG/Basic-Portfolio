@@ -1,0 +1,60 @@
+html, body {
+  color: #777777;
+  background-image: url("./../images/darkness.png");
+  /* Background pattern from Toptal Subtle Patterns */
+}
+
+header {
+  margin: 0;
+  background: #ffffff;
+  border-width: 0 0 2px 0;
+  border-style: solid;
+  border-color: #cccccc;
+  height: 50px;
+  line-height: 50px; /* with equal to total heaight -> vertically aligns text, important that it's only one line of text */
+}
+
+nav {
+  float: right;
+}
+
+nav a {
+  text-decoration: none;
+  color: #777777;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  right: 0; /* left & right 0 -> streches to whole width */
+  bottom: 0px;
+  text-align: center;
+  clear: both;
+  background: #666666;
+  color: #ffffff;
+  display: block;
+}
+
+.main-width {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.main-content {
+  clear: both;
+}
+
+.main-content h2 {
+  color: #4aaaa5;
+}
+
+.main-content img {
+  height: 100px;
+  float: left;
+}
+
+#name {
+  display: inline-block;
+  background: #4aaaa5;
+  color: #ffffff;
+}
