@@ -24,7 +24,7 @@ nav a {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0; /* left & right 0 -> streches to whole width */
   bottom: 0px;
