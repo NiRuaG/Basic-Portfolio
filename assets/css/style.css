@@ -10,15 +10,18 @@ body {
 }
 
 header {
-  margin: 0;
   background: #ffffff;
   border-width: 0 0 2px 0;
   border-style: solid;
   border-color: #cccccc;
+  display: flex;
+  justify-content: space-between;
 }
 
-nav {
-  float: right;
+header .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav a {
