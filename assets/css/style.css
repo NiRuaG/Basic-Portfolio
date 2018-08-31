@@ -11,9 +11,7 @@ body {
 
 header {
   background: #ffffff;
-  border-width: 0 0 2px 0;
-  border-style: solid;
-  border-color: #cccccc;
+  border-bottom: 2px solid #cccccc;
   display: flex;
   justify-content: space-between;
 }
@@ -51,8 +49,14 @@ nav a:nth-child(n + 2) {
 
 h2 {
   font-family: "Georgia", Times, "Times New Roman", serif;
-  padding: 1.5rem;
   font-weight: bolder;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+}
+
+.main-content h2 {
+  color: #4aaaa5;
+  padding-left: 0;
 }
 
 .main-width {
