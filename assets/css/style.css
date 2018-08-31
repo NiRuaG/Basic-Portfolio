@@ -26,7 +26,21 @@ header .flex {
 
 nav a {
   text-decoration: none;
-  color: #777777;
+  color: #777777;       /* :hover over-rides */
+  padding: 0.1rem 1rem;   /* :hover over-rides */
+}
+
+nav a:hover {
+  padding: 0.1rem 1rem 1.5rem;
+  background: #4aaaa5;
+  border-radius: 0.5rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  color: #ffffff;
+}
+
+nav a:nth-child(n + 2) {
+  border-left: 1px solid #777777;
 }
 
 h2 {
