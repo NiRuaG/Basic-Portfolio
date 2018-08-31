@@ -64,17 +64,22 @@ h2 {
   margin: 0 auto;
 }
 
-.main-content {
+.main-content-container {
   flex: 1 0 auto; /* used with 'sticky' footer */
 }
 
-.main-content h2 {
-  color: #4aaaa5;
+.main-content {
+  margin: 1.5rem 0;
+  background: #ffffff;
+  padding: 0 1.5rem 2rem;
 }
 
 .main-content img {
   height: 100px;
-  float: left;
+}
+
+#about-copy {
+  margin-top: 1rem;
 }
 
 footer {
