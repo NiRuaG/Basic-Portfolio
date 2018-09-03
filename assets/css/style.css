@@ -73,24 +73,53 @@ h2 {
   background: #ffffff;
   padding: 0 1.5rem 2rem;
   overflow: auto;
+  /* width: 100%; */
 }
 
-.main-content img {
+#about-copy img {
   height: 10rem;
   float: left;
   margin-right: 1rem;
   margin-bottom: 1rem;
 }
 
-.main-content p {
+#about-copy p {
   line-height: 2;
 }
-.main-content p:nth-child(n+2){
+#about-copy p:nth-child(n+2){
   margin-top: 1rem;
 }
 
 #about-copy {
   margin-top: 1rem;
+}
+
+#contact-form {
+  margin-top: 1rem;
+}
+
+#contact-form label {
+  line-height: 1.5;
+}
+
+#contact-form input, #contact-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: .5rem;
+  margin-bottom: 1rem;
+}
+
+#contact-form textarea {
+  min-height: 10rem;
+  resize: vertical;
+}
+
+#contact-form button {
+  background: #4aaaa5;
+  color: #ffffff;
+  padding: .5rem 1.5rem;
+  border: none;
+  /* font-weight: bold; */
 }
 
 footer {
