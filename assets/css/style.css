@@ -54,6 +54,11 @@ h2 {
   padding: 1.5rem;
 } 
 
+hr {
+  margin-bottom: 1rem;
+  border: 1px solid #cccccc;
+}
+
 .main-content h2 {
   color: #4aaaa5;
   padding-left: 0;
@@ -73,6 +78,7 @@ h2 {
   background: #ffffff;
   padding: 0 1.5rem 2rem;
   overflow: auto;
+  border: 2px solid #dddddd;
   /* width: 100%; */
 }
 
@@ -87,14 +93,6 @@ h2 {
   line-height: 2;
 }
 #about-copy p:nth-child(n+2){
-  margin-top: 1rem;
-}
-
-#about-copy {
-  margin-top: 1rem;
-}
-
-#contact-form {
   margin-top: 1rem;
 }
 
