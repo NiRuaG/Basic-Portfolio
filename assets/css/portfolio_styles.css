@@ -1,0 +1,25 @@
+#portfolio-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#portfolio-container .portfolio-item {
+  max-width: 30%;
+  margin: 1rem 2rem 1rem 0;
+  position: relative;
+}
+
+#portfolio-container .portfolio-item img {
+  max-width: 100%;
+}
+
+#portfolio-container .portfolio-item .banner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.5rem;
+  color: #ffffff;
+  background: #4aaaad;
+  padding: 0.75rem 0;
+  text-align: center;
+}

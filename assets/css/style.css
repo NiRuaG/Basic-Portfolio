@@ -48,12 +48,12 @@ nav a:hover:not(.nav_here) {
   color: #ffffff;
 }
 
-
 nav a:nth-child(n + 2) {
   border-left: 1px solid #777777;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-family: "Georgia", Times, "Times New Roman", serif;
 }
 
@@ -61,11 +61,6 @@ h2 {
   font-weight: bolder;
   font-size: 1.5rem;
   padding: 1.5rem;
-} 
-
-hr {
-  margin-bottom: 1rem;
-  border: 1px solid #cccccc;
 }
 
 .main-content h2 {
@@ -91,68 +86,9 @@ hr {
   /* width: 100%; */
 }
 
-#about-copy img {
-  height: 10rem;
-  float: left;
-  margin-right: 1rem;
+hr {
   margin-bottom: 1rem;
-}
-
-#about-copy p {
-  line-height: 2;
-}
-#about-copy p:nth-child(n+2){
-  margin-top: 1rem;
-}
-
-#contact-form label {
-  line-height: 1.5;
-}
-
-#contact-form input, #contact-form textarea {
-  width: 100%;
-  box-sizing: border-box;
-  padding: .5rem;
-  margin-bottom: 1rem;
-}
-
-#contact-form textarea {
-  min-height: 10rem;
-  resize: vertical;
-}
-
-#contact-form button {
-  background: #4aaaa5;
-  color: #ffffff;
-  padding: .5rem 1.5rem;
-  border: none;
-  /* font-weight: bold; */
-}
-
-#portfolio-container {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-#portfolio-container .portfolio-item {
-  max-width: 30%;
-  margin: 1rem 2rem 1rem 0;
-  position: relative;
-}
-
-#portfolio-container .portfolio-item img {
-  max-width: 100%;
-}
-
-#portfolio-container .banner {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0.5rem;
-  color: #ffffff;
-  background: #4aaaad;
-  padding: 0.75rem 0;
-  text-align: center;
+  border: 1px solid #cccccc;
 }
 
 footer {
