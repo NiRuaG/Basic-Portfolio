@@ -12,31 +12,48 @@
 
 <body>
   <header>
-    <div class="main-width">
-      <h2 id="name">Andrew Gaurin</h2>
+    <div class="flex main-width">
+      <div id="name">
+        <h2>Andrew Gaurin</h2>
+      </div>
       <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+        <!-- The 'bad' tag formatting is because the otherwise usual seperation in code introduces unwanted whitespace that gets displayed -->
+        <!-- aka whitespace between inline-block elements -->
+        <!-- https://davidwalsh.name/remove-whitespace-inline-block -->
+        <!-- An alternative is to put them all on same line.. compromises -->
+         <a href="index.html">About</a
+        ><a href="portfolio.html">Portfolio</a
+        ><a href="contact.html">Contact</a
+        ><!-- add nav tabs here -->
       </nav>
     </div>
   </header>
-  <div class="main-width main-content">
-    <h2>Portfolio</h2>
-    <hr>
-    <table>
-      <tr>
-        <td>Hangman</td>
-        <td>RPG Game</td>
-      </tr>
-      <tr>
-        <td>Trivia Game</td>
-        <td>Rutgers Info Widget</td>
-      </tr>
-      <td>Rock Paper Scissors</td>
-    </table>
-  </div>
+  <section class="main-content-container main-width">
+    <div class="main-content">
+      <h2>Portfolio</h2>
+      <hr>
+      <div id="portfolio-container">
+        <div class="portfolio-item">
+          <img src="./assets/images/technics1.jpg" alt="Hangman, Preview image">
+          <h3 class="banner">Hangman</h3>
+        </div>
+        <div class="portfolio-item">
+          <img src="./assets/images/technics2.jpg" alt="RPG Game, Preview image">
+          <h3 class="banner">RPG Game</h3>
+        </div>
+        <div class="portfolio-item">
+          <img src="./assets/images/technics3.jpg" alt="Trivia Game, Preview image">
+          <h3 class="banner">Trivia Game</h3>
+        </div>
+        <div class="portfolio-item">
+          <img src="./assets/images/technics4.jpg" alt="Info Widget, Preview image">
+          <h3 class="banner">Rutgers Info Widget</h3>
+        </div>
+        <div class="portfolio-item">
+          <img src="./assets/images/technics5.jpg" alt="Rock-Paper-Scissors, Preview image">
+          <h3 class="banner">Rock Paper Scissors</h3>
+        </div>
+      </div>
+  </section>
   <footer>Copyright &copy;</footer>
 </body>
-
-</html>
