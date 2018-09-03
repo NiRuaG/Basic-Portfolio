@@ -34,7 +34,12 @@ nav a {
   padding: 0.1rem 1rem; /* :hover over-rides */
 }
 
-nav a:hover {
+nav .nav_here {
+  color: #4aaaad;
+  font-weight: bold;
+}
+
+nav a:hover:not(.nav_here) {
   padding: 0.1rem 1rem 1.5rem;
   background: #4aaaa5;
   border-radius: 0.5rem;
@@ -42,6 +47,7 @@ nav a:hover {
   border-bottom-right-radius: 0;
   color: #ffffff;
 }
+
 
 nav a:nth-child(n + 2) {
   border-left: 1px solid #777777;
