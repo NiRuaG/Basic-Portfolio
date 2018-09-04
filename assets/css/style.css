@@ -52,8 +52,7 @@ nav a:nth-child(n + 2) {
   border-left: 1px solid #777777;
 }
 
-h2,
-h3 {
+h2, h3, h4 {
   font-family: "Georgia", Times, "Times New Roman", serif;
 }
 
